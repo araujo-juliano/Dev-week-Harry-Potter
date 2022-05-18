@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./src/imagens/icone.png"
+      type="image/x-icon"
+    />
+    <title>Escolha seu personagem - MapaDev Week</title>
+    <link rel="stylesheet" href="./src/css/variaveis.css" />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/fontes.css" />
+    <link rel="stylesheet" href="./src/css/animacoes.css" />
+    <link rel="stylesheet" href="./src/css/estilos.css" />
+    <link rel="stylesheet" href="./src/css/responsivo.css" />
+  </head>
+  <body>
+    <main>
+      <header class="cabecalho">
+        <h1 class="titulo">Character Select</h1>
+      </header>
+      <div class="selecao-de-personagens">
+        <div class="personagem-grande personagem-jogador-1">
+          <img
+            src="./src/imagens/harry.png"
+            alt="Personagem selecionado jogador 1"
+            id="personagem-jogador-1"
+          />
+          <div class="nome">
+            <h2 id="nome-jogador-1">Harry Potter</h2>
+          </div>
+        </div>
+
+        <ul class="lista-de-personagens">
+          <li
+            class="personagem selecionado"
+            id="harry"
+            data-name="Harry Potter"
+          >
+            <span class="tag">1P</span>
+            <img src="./src/imagens/harry.jpg" alt="Personagem Harry Potter" />
+          </li>
+
+          <li class="personagem" id="hermione" data-name="Hermione Granger">
+            <span class="tag">1P</span>
+            <img
+              src="./src/imagens/hermione.jpg"
+              alt="Personagem Hermione Granger"
+            />
+          </li>
+
+          <li class="personagem" id="ronny" data-name="Ronald Weasley">
+            <span class="tag">1P</span>
+            <img
+              src="./src/imagens/ronny.jpg"
+              alt="Personagem Ronald Weasley"
+            />
+          </li>
+
+          <li class="personagem" id="luna" data-name="Luna Lovegood">
+            <span class="tag">1P</span>
+            <img src="./src/imagens/luna.jpg" alt="Personagem Luna Lovegood" />
+          </li>
+
+          <li class="personagem" id="snape" data-name="Severus Snape">
+            <span class="tag">1P</span>
+            <img src="./src/imagens/snape.jpg" alt="Personagem Severus Snape" />
+          </li>
+
+          <li class="personagem" id="dumbledore" data-name="Albus Dumbledore">
+            <span class="tag">1P</span>
+            <img
+              src="./src/imagens/dumbledore.jpg"
+              alt="Personagem Albus Dumbledore"
+            />
+          </li>
+
+          <li class="personagem" id="draco" data-name="Draco Malfoy">
+            <span class="tag">1P</span>
+            <img src="./src/imagens/draco.jpg" alt="Personagem Draco Malfoy" />
+          </li>
+
+          <li class="personagem" id="sirius" data-name="Sirius Black">
+            <span class="tag">1P</span>
+            <img src="./src/imagens/sirius.jpg" alt="Personagem Sirius Black" />
+          </li>
+
+          <li class="personagem" id="hagrid" data-name="Hagrid">
+            <span class="tag">1P</span>
+            <img src="./src/imagens/hagrid.jpg" alt="Personagem Hagrid" />
+          </li>
+
+          <li class="personagem" id="bellatrix" data-name="Bellatrix Lestrange">
+            <span class="tag">1P</span>
+            <img
+              src="./src/imagens/bellatrix.jpg"
+              alt="Personagem Bellatrix Lestrange"
+            />
+          </li>
+
+          <li class="personagem" id="lucius" data-name="Lucius Malfoy">
+            <span class="tag">1P</span>
+            <img
+              src="./src/imagens/lucius.jpg"
+              alt="Personagem Lucius Malfoy"
+            />
+          </li>
+
+          <li
+            class="personagem jogador-2-selecionado"
+            id="voldemort"
+            data-name="Lorde Voldemort"
+          >
+            <span class="tag">2P</span>
+            <img
+              src="./src/imagens/voldemort.jpg"
+              alt="Personagem Lorde Voldemort"
+            />
+          </li>
+        </ul>
+
+        <div class="personagem-grande personagem-jogador-2">
+          <img
+            src="./src/imagens/voldemort.png"
+            alt="Personagem selecionado jogador 2"
+            id="personagem-jogador-2"
+          />
+          <div class="nome">
+            <h2>Lorde Voldemort</h2>
+          </div>
+        </div>
+      </div>
+
+      <audio
+        class="sound-bg"
+        src="./src/sound/Harry Potter - Música Tema ( Edwiges Theme).mp3"
+        controls
+      ></audio>
+    </main>
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
